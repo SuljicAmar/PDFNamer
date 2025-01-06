@@ -9,6 +9,9 @@ struct FileDetailView: View {
                 Group {
                     SectionHeader(title: "Metadata Results")
                     KeyValueRow(
+                        key: "Title",
+                        value: file.results.resultsFromMetaData.processedTitle)
+                    KeyValueRow(
                         key: "Author",
                         value: file.results.resultsFromMetaData.processedAuthor)
                     KeyValueRow(
