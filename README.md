@@ -17,12 +17,12 @@ PDFNamer is a macOS application built using SwiftUI that allows users to batch p
 ---
 
 ## Usage
-	1.	Start the FastAPI Server: Ensure the backend is running at http://127.0.0.1:8000 before using the app.
-	2.	Upload Files: Use the Upload button to select PDF files or folders.
-	3.	Customize Settings:
-        - Choose between AI or metadata as the source for renaming.
-        - Configure naming conventions in the settings sidebar.
-	4.	Process Files:
-        - Use the Overwrite Existing button to rename files in place.
-        - Use the Save to Folder button to save processed files to a selected folder.
-	5.	Review Results: Peek at detailed AI or metadata results in the table.
+- Start the FastAPI Server: Ensure the backend is running at http://127.0.0.1:8000 before using the app.
+- Upload Files: Use the Upload button to select PDF files or folders.
+- Customize Settings:
+  - Choose between AI or metadata as the source for renaming.
+  - Configure naming conventions in the settings sidebar.
+- Process Files:
+  - Use the Overwrite Existing button to rename files in place.
+    - Use the Save to Folder button to save processed files to a selected folder.
+- Review Results: Peek at detailed AI or metadata results in the table.
