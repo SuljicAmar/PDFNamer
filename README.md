@@ -1,2 +1,28 @@
 # PDFNamer
-PDFNamer is a macOS application that allows users to manage, organize, and rename PDF files efficiently. The app provides intelligent naming options using AI-generated metadata and user-defined settings, enabling a seamless workflow for handling large sets of PDF files.
+
+PDFNamer is a macOS application built using SwiftUI that allows users to batch process PDF files, rename them based on metadata or AI-generated suggestions, and save them to a specified folder. The application integrates a FastAPI backend for AI parsing, enabling advanced text extraction and analysis.
+
+---
+
+## Features
+
+- **Batch PDF Processing**: Upload multiple PDF files at once and handle them seamlessly.
+- **AI Integration**: Uses a FastAPI server to extract meaningful metadata like title, author, subject, and creation date.
+- **Metadata Parsing**: Extracts and processes metadata directly from PDF files.
+- **Custom Naming Rules**: Apply prefixes, suffixes, and delimiters to create customized file names.
+- **Dynamic Table View**: Displays the original and suggested names alongside the status of each file.
+- **macOS Native Look**: Dynamic colors and styles adapt to light and dark modes.
+- **File Management**: Save renamed files to a folder or overwrite the existing ones.
+
+---
+
+## Usage
+	1.	Start the FastAPI Server: Ensure the backend is running at http://127.0.0.1:8000 before using the app.
+	2.	Upload Files: Use the Upload button to select PDF files or folders.
+	3.	Customize Settings:
+        - Choose between AI or metadata as the source for renaming.
+        - Configure naming conventions in the settings sidebar.
+	4.	Process Files:
+        - Use the Overwrite Existing button to rename files in place.
+        - Use the Save to Folder button to save processed files to a selected folder.
+	5.	Review Results: Peek at detailed AI or metadata results in the table.
