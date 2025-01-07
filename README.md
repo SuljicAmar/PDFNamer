@@ -26,5 +26,5 @@ PDFNamer is a macOS application built using SwiftUI that allows users to batch p
   - Configure naming conventions in the settings sidebar.
 - Process Files:
   - Use the Overwrite Existing button to rename files in place.
-    - Use the Save to Folder button to save processed files to a selected folder.
+  - Use the Save to Folder button to save processed files to a selected folder.
 - Review Results: Peek at detailed AI or metadata results in the table.
