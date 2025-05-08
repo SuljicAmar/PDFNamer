@@ -4,10 +4,7 @@ PDFNamer is a macOS application built using SwiftUI that allows users to batch p
 
 ---
 
-
-
-https://github.com/user-attachments/assets/504609ce-6fda-4b19-b017-c8a22e6f801a
-
+https://github.com/user-attachments/assets/ca7c6153-28ae-436c-bd77-374689d41292
 
 
 ## Features
